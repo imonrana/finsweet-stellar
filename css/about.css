@@ -1,0 +1,351 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,a,span .col .row {
+    line-height: 0.8px;
+     margin: 0;
+    padding: 0;
+}
+.h_title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+
+.sub_title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 56px;
+    color: #282938;
+}
+
+.m_title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 36px;
+    color: #282938;
+}
+
+.s_title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #282938;
+}
+.h_pera{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.pera{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(40, 41, 56,70%);
+}
+
+button{
+    padding: 16px 56px;
+    background-color: #FCD980;
+    border-radius: 41px;
+    border: transparent;
+}
+
+button a{
+    font-family:"Manrope", sans-serif ;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1B1C2B;
+}
+
+.transparent_btn{
+    background-color: transparent;
+    padding: 0;
+}
+
+.transparent_btn a{
+    color: #2405F2;
+}
+
+/* common css end */
+
+/* navbar css start */
+nav{
+    background-color: #1C1E53;
+    z-index: 999;
+
+}
+.navbar-expand-lg{
+    padding: 16px 0;
+}
+nav .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #FFFFFF;
+}
+
+nav .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #BBBBCB;
+    transition: all linear .4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+nav .nav-link:hover {
+    color: #FFFFFF;
+}
+nav button{
+    background-color: transparent;
+    border: 2px solid rgb(244, 246, 252,20%);
+    margin-left: 32px;
+}
+
+nav button a{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+/* navbar css end */
+
+/* banner part start */
+#banner{
+    padding: 220px 0 128px 0;
+}
+
+
+#banner .title{
+    margin: 8px 0px 32px 0px;
+}
+#banner .pera{
+    width: 484px;
+}
+/* banner part end */
+
+/* we are css start */
+#we_are .row{
+    column-gap: 61px;
+}
+#we_are .we_are_info{
+    background-color: #F4F5F5;
+    padding: 80px 0;
+}
+/* we are css end */
+
+
+/* process css start */
+#process{
+    margin: 128px 0;
+}
+#process .item_warpper{
+    margin-top: 48px;
+}
+#process .item_warpper .item .item_line img{
+    margin-bottom: 32px;
+    width: 200px
+}
+
+/* process css end */
+
+/* mission & vision css start */
+#our_mv{
+    padding: 128px 0;
+    background-color: #EEF4FA;
+}
+
+#our_mv .mission .info{
+    margin-top: 54px;
+}
+
+#our_mv .vision{
+    margin-top: 96px;
+}
+
+/* mission & vision css end */
+
+/* benifit css start */
+#benifit{
+    margin: 128px 0;
+}
+
+#benifit .benifit_title .title{
+    width: 630px;
+}
+
+#benifit .benifit_card_warpper{
+    margin: 48px 0;
+}
+#benifit .benifit_card_warpper .item .card{
+    background-color: #F4F6FC;
+    padding: 48px 16px 48px 48px;
+    border: transparent;
+}
+#benifit .benifit_card_warpper .item .card .card_icon img{
+    margin-bottom: 26px;
+}
+/* benifit css end */
+
+/* our team css start */
+#our_team{
+    padding: 128px 0;
+    background-color: #F4F6FC;
+}
+#our_team .team_profile {
+    margin-top: 48px;
+
+}
+
+#our_team .team_profile .item{
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    cursor: pointer;
+}
+
+
+#our_team .team_profile .item .team_img{
+width: 168px;
+height: 168px;
+border-radius: 50%;
+overflow: hidden;
+margin: 0 auto;
+position: relative;
+transition: all linear .4s;
+
+}
+
+#our_team .team_profile .item:hover .team_img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:linear-gradient(to top, #5239FA, rgb(82, 56, 250, 0%));
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    }   
+
+    #our_team .team_profile .item .team_img .social_icon {
+        color: #FFFFFF;
+        position: absolute;
+        top: 75%;
+        left: 31%;
+        z-index: 2;
+    }
+    #our_team .team_profile .item .team_img .social_icon .i {
+        margin-right: 5px;
+        color: transparent;
+        transition: all linear .4s;
+    }
+
+    #our_team .team_profile .item:hover .team_img .social_icon .i {
+        color: #FFFFFF;
+    }
+#our_team .team_profile .item .team_info{
+   margin-top: 30px;
+    }
+/* our team css end */
+
+/* footer css start */
+#footer .footer_title{
+    background-color: #1C1E53;
+    padding-top: 96px;
+}
+
+#footer .footer_title .pera{
+    font-weight: 500;
+    margin-top: 22px;
+    color: rgb(255, 255, 255,80%);
+    width: 399px;
+}
+
+#footer .talk .title{
+    color: #FFFFFF;
+}
+
+#footer .talk .pera{
+    color: rgb(255, 255, 255,80%);
+    margin-bottom: 28px;
+
+}
+
+#footer .talk .icon .i{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-right: 26px;
+}
+#footer .footer_contact{
+    background-color: #FCD980;
+    column-gap: 29px;
+    padding:16px 0 16px 37px ;
+}
+#footer .footer_contact .p_title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#footer .footer_contact .pera{
+   width: auto;
+   color: rgb(40, 41, 56,80%);
+   margin-top: auto;
+}
+#footer .footer_buttom{
+    padding: 32px 0;
+}
+#footer .footer_buttom .pera{
+    color: #282938;
+}
+
+#footer .footer_buttom .menu_item ul{
+    display: flex;
+}
+#footer .footer_buttom .menu_item ul li{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#footer .footer_buttom .menu_item ul li:last-child{
+    margin-right: 0px;
+}
+
+#footer .footer_buttom .menu_item ul li a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+
+/* footer css end */
