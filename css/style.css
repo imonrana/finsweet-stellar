@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 1280px !important;
+    margin: 0 auto !important;
+}
+
 ul,li{
     list-style: none;
 }
