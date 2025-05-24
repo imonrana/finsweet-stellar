@@ -16,7 +16,7 @@ a{
     text-decoration: none;
     display: inline-block;
 }
-h1,h2,h3,h4,h5,h6,p,a,span .col .row {
+h1,h2,h3,h4,h5,h6,p,a,span, .col, .row {
     line-height: 0.8px;
      margin: 0;
     padding: 0;
@@ -127,52 +127,31 @@ nav button a{
     padding-top: 220px;
     
 }
-#our_pricing .card_item .row{
-    row-gap: 32px !important;
-    background-color: red;
-}
-#our_pricing .card_item .col-lg-4{
-min-height: 500px;
-}
+
+
+ 
 
 #our_pricing .pera{
     width: 562px;
     margin-top: 16px;
 }
 
-#our_pricing article {
-    margin-top: 64px;
-}
-#our_pricing article   .card .price{
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 56px;
-    color: #1C1E53;
-}
-#our_pricing article:hover .card .price{
-   color:#ffff
-}
 
-#our_pricing article .card .price span{
-font-family:"Manrope", sans-serif ;
-font-size: 16px;
-font-weight: 400;
-color: #2405F2;
-transition: all linear .4s;
-}
-#our_pricing article:hover .card .price span{
-font-family:"Manrope", sans-serif ;
-color: yellow;
-}
 
 #our_pricing article{
+    height: 100%;
+    margin-top: 64px;
     padding: 64px 0;
     background-color: #F4F6FC;
     border: transparent;
     border-radius: 12px;
     transition: all linear .4s;
     position: relative;
+}
+
+#our_pricing article:hover{
+    background-color: #1C1E53;
+
 }
 
 #our_pricing article:hover::after {
@@ -187,18 +166,37 @@ color: yellow;
     border-radius: 45%;
 }
 
-
-#our_pricing article:hover{
-    background-color: #1C1E53;
-
-}
-
-#our_pricing article .card {
+ #our_pricing article .card_warpper {
     background-color: transparent;
     border: transparent;
     margin-left: 48px;
-    
+ }
+     
+
+
+#our_pricing article   .card_warpper .price{
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #1C1E53;
 }
+#our_pricing article:hover .card_warpper .price{
+   color:#ffff
+}
+
+#our_pricing article .card_warpper .price span{
+font-family:"Manrope", sans-serif ;
+font-size: 16px;
+font-weight: 400;
+color: #2405F2;
+transition: all linear .4s;
+}
+#our_pricing article:hover .card_warpper .price span{
+font-family:"Manrope", sans-serif ;
+color: yellow;
+}
+
 
 #our_pricing article .card_title{
     font-family: "poppins", sans-serif;
@@ -212,36 +210,36 @@ color: yellow;
     color: white;
 }
 
-#our_pricing article .card .pera{
+#our_pricing article .card_warpper .pera{
     width: 281px;
     transition: all linear .4s;
 }
-#our_pricing article:hover .card .pera{
+#our_pricing article:hover .card_warpper .pera{
     color: white ;
 }
 
-#our_pricing .card ul {
+#our_pricing .card_warpper ul {
     margin: 40px 0; 
 }
-#our_pricing .card li span{
+#our_pricing .card_warpper li span{
     margin-right: 12px;
 }
-#our_pricing .card button{
+#our_pricing .card_warpper button{
     width: fit-content;
     margin: auto;
     background-color: #282938;
     transition: linear .4s;
 }
-#our_pricing article:hover .card button{
+#our_pricing article:hover .card_warpper button{
     background-color: #FCD980;
 
 }
-#our_pricing .card button a{
+#our_pricing .card_warpper button a{
     color: #F4F6FC;
     transition: linear .4s;
 }
 
-#our_pricing article:hover .card button a{
+#our_pricing article:hover .card_warpper button a{
     color: #282938;
 
 }
